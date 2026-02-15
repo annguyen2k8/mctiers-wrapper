@@ -1,6 +1,5 @@
 from mctiers import MCTiersAPI
 
-
 api = MCTiersAPI()
 
 # print(api.get_player_profile("d219c8ee-d32e-4da2-b22e-0aa69d36c88a"))

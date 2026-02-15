@@ -1,9 +1,9 @@
+import re
 from typing import Any, Dict, List, Optional
 
 import httpx
-import re
 
-from models import Gamemode, OverallPlayer, GamemodePlayer, Player, Test
+from models import Gamemode, GamemodePlayer, OverallPlayer, Player, Test
 
 
 def match_uuid(string: str) -> bool:
